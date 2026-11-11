@@ -1,20 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="เว็บไซต์ประวัตินักศึกษาและแฟ้มสะสมผลงาน">
+    <title>ประวัตินักศึกษา | Student Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html"><span class="brand-mark">P</span><span>MY PROFILE</span></a>
+        <nav aria-label="เมนูหลัก">
+            <ul>
+                <li><a class="active" href="index.html">หน้าหลัก</a></li>
+                <li><a href="portfolio.html">นายทินภัทร</a></li>
+                <li><a href="portforlio-2.html">นางสาวนริศรา</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">STUDENT PORTFOLIO</span>
+                <h1>ยินดีต้อนรับสู่<br><span>เว็บไซต์ประวัตินักศึกษา</span></h1>
+                <p>รวบรวมข้อมูลส่วนตัว ประวัติการศึกษา และเรื่องราวของนักศึกษาไว้ในที่เดียว</p>
+                <a class="primary-button" href="#students">เลือกชมโปรไฟล์ <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="hero-monogram">P</div>
+                <span class="floating-tag tag-top">LEARN</span>
+                <span class="floating-tag tag-bottom">GROW · CREATE</span>
+            </div>
+        </section>
 
-<p>
-    <strong>ชื่อ-นามสกุล:</strong>
-    <a href="http://127.0.0.1:5500/portfolio.html"
-       target="_blank"
-       rel="noopener noreferrer">
-        นายทินภัทร อยู่คง
-    </a>
-</p>
+        <section class="students-section" id="students">
+            <div class="section-heading">
+                <span class="eyebrow">OUR STUDENTS</span>
+                <h2>เลือกดูประวัตินักศึกษา</h2>
+                <p>กดปุ่มด้านล่างเพื่อเข้าชมข้อมูลของแต่ละคน</p>
+            </div>
 
+            <div class="profiles">
+                <article class="profile-card">
+                    <div class="avatar avatar-blue">ท</div>
+                    <span class="card-number">STUDENT 01</span>
+                    <h3>นายทินภัทร อยู่คง</h3>
+                    <p>ประวัติส่วนตัวและข้อมูลการศึกษา</p>
+                    <a class="card-link" href="portfolio.html">ดูประวัติส่วนตัว <span aria-hidden="true">↗</span></a>
+                </article>
 
-<p>
-    <strong>ชื่อ-นามสกุล:</strong>
-    <a href="http://127.0.0.1:5500/portforlio-2.html"
-       target="_blank"
-       rel="noopener noreferrer">
-        นางสาวนริศรา โนนจุ้ย
-    </a>
-</p>
+                <article class="profile-card">
+                    <div class="avatar avatar-violet">น</div>
+                    <span class="card-number">STUDENT 02</span>
+                    <h3>นางสาวนริศรา โนนจุ้ย</h3>
+                    <p>ประวัติส่วนตัวและข้อมูลการศึกษา</p>
+                    <a class="card-link" href="portforlio-2.html">ดูประวัติส่วนตัว <span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Student Profile · จัดทำเพื่อการศึกษา</p>
+    </footer>
+</body>
+</html>
